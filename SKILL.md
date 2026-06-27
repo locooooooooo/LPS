@@ -3,7 +3,7 @@ name: pm-orchestration-system
 description: PM orchestration skill for multi-session planning, dispatch, acceptance, and iteration control. Use when Codex needs to run a structured PM system with roles such as PM, supervisor, long-worker, and short-worker; manage goal-mode execution; maintain version plans and day-close rules; enforce tag-based coordination; or package delivery as summary bundles instead of full git diff. Also use when a team wants optional modules such as git workflow, archive rules, or callback templates to be plugged in without changing the core protocol.
 ---
 
-# PM Orchestration System
+# Loop - PM Orchestration System
 
 ## Overview
 

@@ -1,4 +1,4 @@
-# PM Orchestration System
+# Loop - PM Orchestration System
 
 > 面向 Codex 的可分享 PM 调度技能。  
 > 用来统一管理 `PM / 监督 / 长工 / 短工 / 验收`、`goal mode`、版本计划、回调收口、日结归档和摘要式交付。

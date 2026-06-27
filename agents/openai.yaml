@@ -1,5 +1,5 @@
 interface:
-  display_name: "PM Orchestration System"
+  display_name: "Loop - PM Orchestration System"
   short_description: "PM dispatch, worker roles, and version-plan control"
   default_prompt: "Use $pm-orchestration-system to run PM dispatch, long-worker goal mode, short-worker day-close, and version-plan orchestration."
 

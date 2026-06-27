@@ -1,4 +1,4 @@
-# PM Orchestration System
+# Loop - PM Orchestration System
 
 > Shareable Codex skill for PM dispatch, long-worker and short-worker execution, goal-mode control, version planning, callback collection, archive flow, and summary-package delivery.
 
