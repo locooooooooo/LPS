@@ -25,7 +25,7 @@ Use when the user wants:
 ## 3. Repo protocol module
 
 Use when the user wants:
-- a repo-local `docs/handoff/**` system
+- a repo-local `docs/orchestration/**` system
 - standardized role cards, task cards, session cards
 - startup prompt templates inside the repository
 

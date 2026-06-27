@@ -14,14 +14,14 @@ Each version plan should answer:
 
 When the user names a large system:
 - create one module owner long-worker
-- bind the module with a visible version, for example `闯荡@v1.0`
+- bind the module with a visible version, for example `核心模块@v1.0`
 - define the owner boundary clearly
 - decompose sub-lanes only after the owner exists
 
 Examples:
-- `任务系统打通@v1.0`
-- `终局收尾@v0.9`
-- `闯荡@v1.0`
+- `system-integration@v1.0`
+- `closure-flow@v0.9`
+- `core-module@v1.0`
 
 ## 3. PM split rule
 

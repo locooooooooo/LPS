@@ -27,13 +27,13 @@ git clone https://github.com/locooooooooo/LPS.git "$HOME/.codex/skills/pm-orches
 ### 2. Invoke the skill explicitly
 
 ```text
-Use $pm-orchestration-system to run [PM]#today-plan@2026-06-27 in goal mode with optional modules archive,git.
+Use $pm-orchestration-system to run [PM]#current-cycle@2026-06-27 in goal mode with optional modules archive,git.
 ```
 
 ### 3. Generate a starter prompt pack
 
 ```powershell
-python scripts/render_prompt_pack.py --role pm --module today-plan --version 2026-06-27 --mode goal --modules core,archive,git
+python scripts/render_prompt_pack.py --role pm --module current-cycle --version 2026-06-27 --mode goal --modules core,archive,git
 ```
 
 ## Where it fits
@@ -56,9 +56,9 @@ Use:
 
 Examples:
 
-- `[PM]#today-plan@2026-06-27`
-- `[Long-worker]#adventure@v1.0`
-- `[Short-worker]#blocked-fix@v0.1`
+- `[PM]#current-cycle@2026-06-27`
+- `[Long-worker]#core-module@v1.0`
+- `[Short-worker]#fix-task@v0.1`
 
 ### Role boundaries
 
@@ -89,7 +89,7 @@ Use only when needed:
 - `git`
 - `archive`
 - `validation`
-- repo-local handoff protocol
+- repo-local orchestration protocol
 
 ## Repository layout
 

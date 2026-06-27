@@ -6,7 +6,7 @@ Use this reference when the user wants the PM system materialized inside a repos
 
 ```text
 docs/
-  handoff/
+  orchestration/
     index.md
     startup-prompt.md
     callback-summary-template.md

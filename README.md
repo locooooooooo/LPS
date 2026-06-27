@@ -28,13 +28,13 @@ git clone https://github.com/locooooooooo/LPS.git "$HOME/.codex/skills/pm-orches
 ### 2. 显式调用技能
 
 ```text
-Use $pm-orchestration-system to run [PM]#今日版本@2026-06-27 in goal mode with optional modules archive,git.
+Use $pm-orchestration-system to run [PM]#当前轮次@2026-06-27 in goal mode with optional modules archive,git.
 ```
 
 ### 3. 生成启动包
 
 ```powershell
-python scripts/render_prompt_pack.py --role pm --module 今日版本 --version 2026-06-27 --mode goal --modules core,archive,git
+python scripts/render_prompt_pack.py --role pm --module 当前轮次 --version 2026-06-27 --mode goal --modules core,archive,git
 ```
 
 ## 适合什么场景
@@ -57,9 +57,9 @@ python scripts/render_prompt_pack.py --role pm --module 今日版本 --version 2
 
 例子：
 
-- `[PM]#今日版本@2026-06-27`
-- `[长工]#闯荡@v1.0`
-- `[短工]#blocked修复@v0.1`
+- `[PM]#当前轮次@2026-06-27`
+- `[长工]#核心模块@v1.0`
+- `[短工]#修复任务@v0.1`
 
 ### 2. 角色边界
 
@@ -97,7 +97,7 @@ python scripts/render_prompt_pack.py --role pm --module 今日版本 --version 2
 - `git`
 - `archive`
 - `validation`
-- repo-local handoff protocol
+- repo-local orchestration protocol
 
 ## 仓库结构
 

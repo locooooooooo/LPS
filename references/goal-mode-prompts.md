@@ -3,7 +3,7 @@
 ## PM goal prompt
 
 ```md
-[PM]#今日版本@<plan-version>
+[PM]#当前轮次@<plan-version>
 
 进入 goal 模式。
 你的唯一目标是：根据当前 truth source 完成当日版本的派发、回调收齐、验收收口与下一步安排。
@@ -72,7 +72,7 @@
 ## Supervisor prompt
 
 ```md
-[监督]#PM巡检@<plan-version>
+[监督]#流程巡检@<plan-version>
 
 你的目标是巡检 PM 是否：
 1. 识别了正确 truth source

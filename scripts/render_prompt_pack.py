@@ -36,7 +36,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--truth-source",
-        default="docs/handoff/index.md",
+        default="docs/orchestration/index.md",
         help="Primary truth-source file or board path.",
     )
     return parser

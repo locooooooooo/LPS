@@ -1,6 +1,6 @@
 ---
 name: pm-orchestration-system
-description: PM orchestration skill for multi-session planning, dispatch, acceptance, and iteration control. Use when Codex needs to run a structured PM system with roles such as PM, supervisor, long-worker, and short-worker; manage goal-mode execution; maintain version plans and day-close rules; enforce tag-based handoff; or package delivery as summary bundles instead of full git diff. Also use when a team wants optional modules such as git workflow, archive rules, or callback templates to be plugged in without changing the core protocol.
+description: PM orchestration skill for multi-session planning, dispatch, acceptance, and iteration control. Use when Codex needs to run a structured PM system with roles such as PM, supervisor, long-worker, and short-worker; manage goal-mode execution; maintain version plans and day-close rules; enforce tag-based coordination; or package delivery as summary bundles instead of full git diff. Also use when a team wants optional modules such as git workflow, archive rules, or callback templates to be plugged in without changing the core protocol.
 ---
 
 # PM Orchestration System
@@ -74,7 +74,7 @@ Read [references/version-planning.md](references/version-planning.md) for:
 - how to map large systems to one long-worker owner
 - how to split child lanes into short-workers
 
-Read [references/repo-protocol-bootstrap.md](references/repo-protocol-bootstrap.md) when the user wants to materialize the protocol into repository files such as `docs/handoff/**`.
+Read [references/repo-protocol-bootstrap.md](references/repo-protocol-bootstrap.md) when the user wants to materialize the protocol into repository files such as `docs/orchestration/**`.
 
 Read [references/self-iteration.md](references/self-iteration.md) when the user wants PM review, rule tightening, drift correction, or end-of-day protocol improvement.
 
@@ -86,7 +86,7 @@ Read [references/optional-modules.md](references/optional-modules.md) only when 
 - git workflow hooks
 - archive helpers
 - stricter callback templates
-- repository-specific handoff structure
+- repository-specific orchestration structure
 
 If an optional module is not selected, keep it out of the operating context.
 
